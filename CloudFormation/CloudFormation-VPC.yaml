@@ -249,7 +249,7 @@ Resources:
       AllocationId:  !GetAtt EIP1.AllocationId
       Tags:
         - Key: Name
-          Value: NATGateway-A
+          Value: NATGateWay-A
   
   NATGatewayB:
     DependsOn: GatewayAttachmentInternet
@@ -259,7 +259,7 @@ Resources:
       AllocationId:  !GetAtt EIP2.AllocationId
       Tags:
         - Key: Name
-          Value: NATGateway-B
+          Value: NATGateWay-B
           
           
 #============ ALL Subnets ======================================================	  
